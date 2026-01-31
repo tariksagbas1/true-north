@@ -454,6 +454,93 @@ main {
 }
 
 /* =========
+   Event Detail
+   ========= */
+
+.tn-event-detail {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.tn-event-header {
+  margin-bottom: 3rem;
+}
+
+.tn-event-content {
+  display: flex;
+  justify-content: center;
+}
+
+.tn-event-card {
+  max-width: 680px;
+  width: 100%;
+  border-radius: 28px;
+  padding: 2.6rem 2.5rem 2.3rem;
+  background: linear-gradient(135deg, #4a0c1f, #2a050f);
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.7),
+    inset 0 0 0 1px rgba(248, 218, 186, 0.08);
+}
+
+.tn-event-card-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.tn-event-card-title {
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 0.08em;
+  color: #f3d2a2;
+  margin: 0 0 0.5rem;
+}
+
+.tn-event-card-subtitle {
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(245, 231, 216, 0.7);
+  margin: 0 0 1.4rem;
+}
+
+.tn-event-divider {
+  margin: 1.2rem 0 1.8rem;
+  height: 1px;
+  border-radius: 999px;
+  background: radial-gradient(
+    circle at 0 50%,
+    rgba(243, 210, 162, 0.5),
+    transparent 50%
+  );
+}
+
+.tn-event-description {
+  font-size: 1.02rem;
+  line-height: 1.85;
+  color: rgba(245, 231, 216, 0.78);
+  margin: 0 0 1.4rem;
+}
+
+.tn-event-description:last-of-type {
+  margin-bottom: 1.8rem;
+}
+
+.tn-event-footer {
+  margin-top: 1.2rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid rgba(243, 210, 162, 0.12);
+}
+
+.tn-event-note {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: rgba(245, 231, 216, 0.65);
+  font-style: italic;
+  margin: 0;
+}
+
+/* =========
    Membership Card & Form
    ========= */
 
@@ -633,6 +720,14 @@ main {
 
   .tn-card {
     padding-inline: 1.7rem;
+  }
+
+  .tn-event-card {
+    padding-inline: 1.8rem;
+  }
+
+  .tn-event-card-title {
+    font-size: 1.5rem;
   }
 }
 
